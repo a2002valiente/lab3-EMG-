@@ -13,10 +13,10 @@ editor_options:
 
 ------------------------------------------------------------------------
 
-                                Procesamiento digital de señales
-                                
-                                Carolina Corredor BMED B\
-                                UMNG
+                                                      Procesamiento digital de señales
+                                                      
+                                                      Carolina Corredor BMED B\
+                                                      UMNG
 
 ------------------------------------------------------------------------
 
