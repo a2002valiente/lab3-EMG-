@@ -1,7 +1,10 @@
 ---
+title: "README"
+author: "Sebastian Ochoa, Andrea Valiente,Juliana Hernandez"
+date: "2024-10-04"
 editor_options: 
   markdown: 
-    wrap: 72
+    wrap: 60
 ---
 
 ------------------------------------------------------------------------
