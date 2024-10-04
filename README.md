@@ -81,22 +81,22 @@ correspondiente, lo primero que se realiza es graficar la señal y se
 busca la frecuencia de muestreo adecuada utilizando el teorema de
 muestreo de Nyquist donde se establece que la frecuencia de muestreo
 debe ser al menos el doble de la frecuencia maxima de la señal, se
-conice que las señales EMG tienen componentes de frecuencia que varian
-entre 0.5Hz y 500Hz con los componentes mas importantes generalmjente
+conoce que las señales EMG tienen componentes de frecuencia que varian
+entre 0.5Hz y 500Hz con los componentes mas importantes generalmente
 tienen un rango de 20Hz a 500 Hz, siendo asi con el teorema mencionado
-anteriormeente podemos decir que la frecuencia minima de muestreo que se
+anteriormente podemos decir que la frecuencia minima de muestreo que se
 manejara sera de 1000 Hz .
 
 4.Se puede observar la grafica con los datos adquiridos para poder
 analizarla de una manera mas completa, se le aplica a esta señal un
 filtro pasa bajo con una frecuencia de 450 Hz eliminando los componentes
-de alta frecuencia como ruido ,artefactos electronicosy un pasa alto con
-una frecuencia de 20HZ eliminando los componenetes de baja frecuencia
-que puede ser ruido como el movimiento d elos musculos o el ruido de
+de alta frecuencia como ruido ,artefactos electronicos y un pasa alto con
+una frecuencia de 20HZ eliminando los componentes de baja frecuencia
+que puede ser ruido como el movimiento de los musculos o el ruido de
 60Hz,siendo asi posible poder preservar la señal muscular limpia. Para
 una mejor comprension se le aplico el ventanamiento Hanning esta es una
 tecnica que se utiliza para suavizar los efectos indeseados en el
-analisis espectral ademas es imporatbnte resaltar que nos permirte
+analisis espectral ademas es imporatante resaltar que nos permirte
 trabajar en el dominio de la frecuencia para poder aplicarle la
 transformada rapida de (FFT) pero antes de realizar este paso ,los picos
 que se observan de frecuencia resultantes son más representativos de las
@@ -235,7 +235,7 @@ Esto puede ser útil para observar tendencias generales en la activación
 muscular, pero puede perder información importante sobre contracciones
 rápidas.
 
-La **señal filtrada (Pasa Banda)**se observa el resultado de un filtrado
+La **señal filtrada (Pasa Banda)** se observa el resultado de un filtrado
 pasa-banda, que retiene las frecuencias de interés para la actividad
 muscular (20-450 Hz en nuestro caso ).Esta es probablemente la señal más
 informativa, ya que elimina tanto el ruido de baja frecuencia como las
